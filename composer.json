@@ -1,0 +1,28 @@
+{
+    "name": "veylib/vat-information",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Veylib\\VatInformation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Veylib\\VatInformation\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafal Konieczny",
+            "email": "rafkon1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4"
+    }
+}
